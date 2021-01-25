@@ -1,15 +1,15 @@
 package com.example.recipe.domain;
 
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.*;
+import org.junit.jupiter.api.BeforeEach;
 
 public class CategoryTest {
 	
 	Category category;
 	
-	@Before
+	@BeforeEach
 	public void setUp() {
 		category = new Category();
 	}
